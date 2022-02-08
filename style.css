@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;  /*Distancia de menu bar pra cima*/
+    padding-left: 24px;
+}
+
+.cabecalho-img{
+    height: 38px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 58px;    /*Distancia entre os botoes do cabecalho*/             /**/
+}
+
+.cabecalho-menu-item{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 28px;
+    color:black; 
+}
+
+.conteudo{
+    margin-bottom: 48px;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo{
+    font-family: Righteous;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;    
+    line-height: 99px;
+    color: #424242;
+}
+
+.conteudo-principal-escrito-subtitulo{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 21px;
+    color: #484848;
+}
+
+.conteudo-principal-escrito-botao{
+    background: linear-gradient(89.76deg, #FA982F 0.18%, #FF5E43 99.78%, rgba(196, 196, 196, 0) 99.78%);
+    filter: drop-shadow(2px 5px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+    width: 300px;
+    height: 70px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 42px;
+    color: #EDEDED;
+}
+
+.conteudo-principal-escrito-botao:hover{
+    background-color: rgba(221, 157, 20, 0.25) ;
+}
+
+.conteudo-principal-img{
+    width: 599px;
+    height: 505px;
+}
+
+.back_ora{
+    position: absolute;
+    width: 1000px;
+    height: 1000px;
+    left: 648px;
+    
+    background: linear-gradient(145.13deg, #F8A036 0%, #FF5E43 78.51%);
+    border-radius: 149px;
+    transform: rotate(-60.11deg);
+}
+
