@@ -1,3 +1,3 @@
-<div align="center"><img src="https://github.com/mariaeqp/landing_page/issues/1#issue-1127467477" width="250">
+<div align="center"><img src="https://user-images.githubusercontent.com/61321236/153028900-87c278d8-af03-4f21-aee0-56721f30f7a3.png" width="250">
 
 
